@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">1000-Days-Of-Android</string>
+
+    <!-- Main Activity -->
+    <string name="text_welcome_days_android">Welcome to 1000 Days Of Android</string>
+
+    <!-- Main Activity Accessibility -->
+    <string name="android_logo">Android logo white color</string>
 </resources>
