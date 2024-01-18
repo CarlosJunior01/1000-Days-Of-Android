@@ -1,4 +1,4 @@
-package com.carlosjr.days_of_android.year_2024.january.week_02.presentation.activities
+package com.carlosjr.days_of_android.year_2024.january.week_03.presentation.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
