@@ -10,4 +10,7 @@
     <!-- Menu Fragment -->
     <string name="text_title_menu_fragment">1000 Days Of Android</string>
     <string name="posts_button">Posts</string>
+
+    <!-- Interface Components One -->
+    <string name="text_simple_text_view">I am simple TextView</string>
 </resources>
