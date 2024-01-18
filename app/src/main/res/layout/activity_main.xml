@@ -10,7 +10,7 @@
         android:id="@+id/imageViewAndroidLogo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:contentDescription="@string/android_logo"
+        android:contentDescription="@string/android_logo_accessibility"
         android:src="@drawable/ic_launcher_foreground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
