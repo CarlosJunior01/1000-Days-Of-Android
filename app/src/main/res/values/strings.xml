@@ -5,5 +5,9 @@
     <string name="text_welcome_days_android">Welcome to 1000 Days Of Android</string>
 
     <!-- Main Activity Accessibility -->
-    <string name="android_logo">Android logo white color</string>
+    <string name="android_logo_accessibility">Android logo white color</string>
+
+    <!-- Menu Fragment -->
+    <string name="text_title_menu_fragment">1000 Days Of Android</string>
+    <string name="posts_button">Posts</string>
 </resources>
