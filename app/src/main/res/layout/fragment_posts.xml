@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/main_fragment_title"
-        style="@style/TitleSansSerif_white_32sp"
+        style="@style/TextTitleWhite.SansSerif_32sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/margin_16dp"
@@ -43,7 +43,7 @@
 
             <TextView
                 android:id="@+id/text_view_posts"
-                style="@style/TitleSansSerif_white_18sp"
+                style="@style/TextLabelWhite.SansSerif_18sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/margin_16dp"
