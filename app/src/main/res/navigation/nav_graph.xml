@@ -9,5 +9,15 @@
         android:id="@+id/menuFragment"
         android:name="com.carlosjr.days_of_android.year_2024.january.week_02.presentation.fragments.MenuFragment"
         android:label="MenuFragment"
-        tools:layout="@layout/fragment_menu" />
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_interfaceComponentsOneFragment"
+            app:destination="@id/interfaceComponentsOneFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/interfaceComponentsOneFragment"
+        android:name="com.carlosjr.days_of_android.year_2024.january.week_02.presentation.fragments.InterfaceComponentsOneFragment"
+        android:label="InterfaceComponentsOneFragment"
+        tools:layout="@layout/fragment_interface_components_one" />
 </navigation>
