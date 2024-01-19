@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import com.carlosjr.days_of_android.R
 import com.carlosjr.days_of_android.databinding.FragmentInterfaceComponentsOneBinding
 
-class InterfaceComponentsOneFragment : Fragment() {
+class InterfaceComponentsOneFragment : Fragment(R.layout.fragment_interface_components_one) {
 
     private lateinit var binding: FragmentInterfaceComponentsOneBinding
 

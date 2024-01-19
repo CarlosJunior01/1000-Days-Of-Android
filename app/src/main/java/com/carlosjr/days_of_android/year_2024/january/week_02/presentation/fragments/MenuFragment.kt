@@ -5,6 +5,7 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import com.carlosjr.days_of_android.R
 import com.carlosjr.days_of_android.databinding.FragmentMenuBinding
+import com.carlosjr.days_of_android.extensions.navTo
 
 class MenuFragment : Fragment(R.layout.fragment_menu) {
 
@@ -17,6 +18,7 @@ class MenuFragment : Fragment(R.layout.fragment_menu) {
     }
 
     private fun setupListeners() = with(binding) {
+        interfaceComponentsOneButton.setOnClickListener { navTo(R.id.interfaceComponentsOneFragment) }
         postsButton.setOnClickListener {  }
     }
 
