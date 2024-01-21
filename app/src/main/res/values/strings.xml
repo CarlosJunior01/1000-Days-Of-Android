@@ -16,4 +16,5 @@
     <string name="text_simple_text_view">I am simple TextView</string>
     <string name="text_simple_button">I am simple Button</string>
     <string name="text_custom_button">I am custom Button</string>
+    <string name="text_toast_button">I am toast</string>
 </resources>
