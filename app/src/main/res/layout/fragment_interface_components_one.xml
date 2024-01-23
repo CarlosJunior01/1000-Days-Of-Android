@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gray_30"
-    tools:context=".year_2024.january.week_03.presentation.fragments.PostsFragment">
+    tools:context=".year_2024.january.week_04.presentation.fragments.PostsFragment">
 
     <TextView
         android:id="@+id/fragment_title"
@@ -92,6 +92,13 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/android_logo_accessibility"
+                android:src="@drawable/ic_launcher_foreground" />
         </LinearLayout>
 
     </ScrollView>

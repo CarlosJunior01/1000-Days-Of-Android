@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gray_30"
-    tools:context=".year_2024.january.week_03.presentation.fragments.PostsFragment">
+    tools:context=".year_2024.january.week_04.presentation.fragments.PostsFragment">
 
     <TextView
         android:id="@+id/main_fragment_title"
