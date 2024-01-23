@@ -17,4 +17,7 @@
     <string name="text_simple_button">I am simple Button</string>
     <string name="text_custom_button">I am custom Button</string>
     <string name="text_toast_button">I am toast</string>
+
+    <!-- Interface Components One -->
+    <string name="text_confirm_button">Confirm</string>
 </resources>
