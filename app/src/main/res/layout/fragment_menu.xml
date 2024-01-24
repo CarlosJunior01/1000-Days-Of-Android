@@ -49,6 +49,13 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 style="@style/Button.SilverLight"
+                android:id="@+id/interface_components_two_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/interface_components_two_button" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                style="@style/Button.SilverLight"
                 android:id="@+id/posts_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
