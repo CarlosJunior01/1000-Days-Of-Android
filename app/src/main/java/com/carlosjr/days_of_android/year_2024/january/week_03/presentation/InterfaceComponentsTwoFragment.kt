@@ -5,6 +5,7 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import com.carlosjr.days_of_android.R
 import com.carlosjr.days_of_android.databinding.FragmentInterfaceComponentsTwoBinding
+import com.carlosjr.days_of_android.extensions.toast
 
 class InterfaceComponentsTwoFragment : Fragment(R.layout.fragment_interface_components_two) {
 
@@ -18,7 +19,11 @@ class InterfaceComponentsTwoFragment : Fragment(R.layout.fragment_interface_comp
     }
 
     private fun setupListeners() = with(binding) {
-       confirmButton.setOnClickListener {  }
+       confirmButton.setOnClickListener {
+           textViewResult.text = editText.text.toString()
+           toast(editText.text.toString())
+           editText.text = null
+       }
     }
 
     private fun setupViews() = with(binding) {
