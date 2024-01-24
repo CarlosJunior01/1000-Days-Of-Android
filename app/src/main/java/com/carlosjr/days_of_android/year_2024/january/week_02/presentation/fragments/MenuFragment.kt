@@ -19,6 +19,7 @@ class MenuFragment : Fragment(R.layout.fragment_menu) {
 
     private fun setupListeners() = with(binding) {
         interfaceComponentsOneButton.setOnClickListener { navTo(R.id.interfaceComponentsOneFragment) }
+        interfaceComponentsTwoButton.setOnClickListener { navTo(R.id.interfaceComponentsTwoFragment) }
         postsButton.setOnClickListener {  }
     }
 
