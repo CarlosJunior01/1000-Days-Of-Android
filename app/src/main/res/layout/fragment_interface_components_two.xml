@@ -52,6 +52,18 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <EditText
+                android:id="@+id/edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_16dp"
+                android:layout_marginVertical="@dimen/margin_8dp"
+                android:hint="@string/edit_text"
+                android:textColorHint="@color/white"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:autofillHints="" />
+
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/confirm_button"
                 style="@style/Button.SilverLight"
