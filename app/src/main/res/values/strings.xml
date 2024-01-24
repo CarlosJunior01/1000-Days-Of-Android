@@ -10,6 +10,7 @@
     <!-- Menu Fragment -->
     <string name="text_title_menu_fragment">1000 Days Of Android</string>
     <string name="interface_components_one_button">Interface Components One</string>
+    <string name="interface_components_two_button">Interface Components Two</string>
     <string name="posts_button">Posts</string>
 
     <!-- Interface Components One -->
@@ -18,6 +19,7 @@
     <string name="text_custom_button">I am custom Button</string>
     <string name="text_toast_button">I am toast</string>
 
-    <!-- Interface Components One -->
+    <!-- Interface Components Two -->
     <string name="text_confirm_button">Confirm</string>
+    <string name="edit_text">EditText</string>
 </resources>
