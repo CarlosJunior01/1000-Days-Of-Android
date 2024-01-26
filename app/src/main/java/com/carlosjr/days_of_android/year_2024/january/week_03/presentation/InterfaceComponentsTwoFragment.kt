@@ -24,8 +24,8 @@ class InterfaceComponentsTwoFragment : Fragment(R.layout.fragment_interface_comp
            toast(editText.text.toString())
            editText.text = null
        }
-        switch.setOnClickListener {
-            if (switch.isChecked) toast("switch.isChecked") else toast("switch.notChecked")
+        switchComponent.setOnClickListener {
+            if (switchComponent.isChecked) toast("switch.isChecked") else toast("switch.notChecked")
         }
     }
 

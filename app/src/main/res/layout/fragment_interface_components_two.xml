@@ -78,11 +78,10 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Switch
-                android:id="@+id/switch"
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_component"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Switch" />
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
     </ScrollView>
