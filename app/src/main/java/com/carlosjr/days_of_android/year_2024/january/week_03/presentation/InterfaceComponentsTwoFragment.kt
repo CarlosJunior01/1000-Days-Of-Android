@@ -19,11 +19,12 @@ class InterfaceComponentsTwoFragment : Fragment(R.layout.fragment_interface_comp
     }
 
     private fun setupListeners() = with(binding) {
-       confirmButton.setOnClickListener {
-           textViewResult.text = editText.text.toString()
-           toast(editText.text.toString())
-           editText.text = null
-       }
+        confirmButton.setOnClickListener {
+            textViewResult.text = editText.text.toString()
+            toast(editText.text.toString())
+            toast(inputEditText.text.toString())
+            editText.text = null
+        }
         switchComponent.setOnClickListener {
             if (switchComponent.isChecked) toast("switch.isChecked") else toast("switch.notChecked")
         }
