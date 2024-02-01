@@ -2,6 +2,7 @@ package com.carlosjr.days_of_android.year_2024.january.week_03.presentation
 
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import com.carlosjr.days_of_android.R
 import com.carlosjr.days_of_android.databinding.FragmentInterfaceComponentsTwoBinding
@@ -28,9 +29,25 @@ class InterfaceComponentsTwoFragment : Fragment(R.layout.fragment_interface_comp
         switchComponent.setOnClickListener {
             if (switchComponent.isChecked) toast("switch.isChecked") else toast("switch.notChecked")
         }
+
+        alertDialogButton.setOnClickListener { setupAlertDialog() }
     }
 
     private fun setupViews() = with(binding) {
         textViewResult.text = ""
+    }
+
+    private fun setupAlertDialog() {
+        val alertBuilder = AlertDialog.Builder(requireContext())
+        alertBuilder.setTitle("Alert Dialog")
+        alertBuilder.setMessage("Deseja confirmar a ação?")
+        alertBuilder.setIcon(R.drawable.ic_close_24)
+        alertBuilder.setPositiveButton("Confirmar") { _, _ -> toast("Confirmar Selecionado") }
+        alertBuilder.setNegativeButton("Cancelar") { _, _ -> toast("Cancelar Selecionado") }
+        alertBuilder.setNeutralButton("Fechar") { dialog, _ -> dialog.dismiss() }
+        alertBuilder.setCancelable(false)
+
+        val alertDialog = alertBuilder.create()
+        alertDialog.show()
     }
 }
