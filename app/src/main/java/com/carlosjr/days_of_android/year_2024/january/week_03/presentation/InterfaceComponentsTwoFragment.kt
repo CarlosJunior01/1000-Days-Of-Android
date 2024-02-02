@@ -30,16 +30,17 @@ class InterfaceComponentsTwoFragment : Fragment(R.layout.fragment_interface_comp
             if (switchComponent.isChecked) toast("switch.isChecked") else toast("switch.notChecked")
         }
 
-        alertDialogButton.setOnClickListener { setupAlertDialog() }
+        alertDialogAButton.setOnClickListener { setupAlertDialogA() }
+        alertDialogBButton.setOnClickListener { setupAlertDialogB() }
     }
 
     private fun setupViews() = with(binding) {
         textViewResult.text = ""
     }
 
-    private fun setupAlertDialog() {
+    private fun setupAlertDialogA() {
         val alertBuilder = AlertDialog.Builder(requireContext())
-        alertBuilder.setTitle("Alert Dialog")
+        alertBuilder.setTitle("Alert Dialog A")
         alertBuilder.setMessage("Deseja confirmar a ação?")
         alertBuilder.setIcon(R.drawable.ic_close_24)
         alertBuilder.setPositiveButton("Confirmar") { _, _ -> toast("Confirmar Selecionado") }
@@ -49,5 +50,15 @@ class InterfaceComponentsTwoFragment : Fragment(R.layout.fragment_interface_comp
 
         val alertDialog = alertBuilder.create()
         alertDialog.show()
+    }
+
+    private fun setupAlertDialogB() {
+        AlertDialog.Builder(requireContext())
+            .setTitle("Alert Dialog B")
+            .setMessage("Deseja confirmar a ação?")
+            .setPositiveButton("Confirmar") { _, _ -> toast("Confirmar Selecionado") }
+            .setNegativeButton("Cancelar") { _, _ -> toast("Cancelar Selecionado") }
+            .setNeutralButton("Fechar") { dialog, _ -> dialog.dismiss() }
+            .create().show()
     }
 }

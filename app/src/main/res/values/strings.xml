@@ -21,6 +21,7 @@
 
     <!-- Interface Components Two -->
     <string name="text_confirm_button">Confirm</string>
-    <string name="alert_dialog_button">Alert Dialog</string>
+    <string name="alert_dialog_a_button">Alert Dialog A</string>
+    <string name="alert_dialog_b_button">Alert Dialog B</string>
     <string name="edit_text">EditText</string>
 </resources>
